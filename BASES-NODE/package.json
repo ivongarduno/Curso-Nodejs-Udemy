@@ -1,0 +1,23 @@
+{
+  "name": "bases-node",
+  "version": "0.0.1",
+  "description": "Tabla de multiplicar en un archivo de texto",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base3": "node app --base=3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivongarduno/Curso-Nodejs-Udemy.git"
+  },
+  "author": "Blanca Garduño",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivongarduno/Curso-Nodejs-Udemy/issues"
+  },
+  "homepage": "https://github.com/ivongarduno/Curso-Nodejs-Udemy#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
