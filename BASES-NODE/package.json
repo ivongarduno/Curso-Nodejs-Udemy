@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ivongarduno/Curso-Nodejs-Udemy#readme",
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "yargs": "^17.1.1"
   }
 }
