@@ -18,7 +18,7 @@ const crearArchivo = async (base = 1, listar = false, hasta = 10) => {
             console.log(consola)
         }
 
-        await fs.writeFileSync(`tabla-${base}.txt`, salida);
+        await fs.writeFileSync(`./salida/tabla-${base}.txt`, salida);
 
         return colors.rainbow(`tabla-${base}.txt`)
 
