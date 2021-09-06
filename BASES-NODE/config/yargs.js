@@ -10,12 +10,20 @@ const argv = require('yargs')
             alias: 'listar',
             type: 'boolean',
             default: false,
-            describe: 'Mustra la tabla en consola'
+            describe: 'Muestra la tabla en consola'
+        },
+        'h': {
+            alias: 'hasta',
+            type: 'number',
+            default: 10,
+            describe: 'Hasta que número multiplica la base'
         }
     })
     .check((argv, options) => {
         if (isNaN(argv.b)) {
             throw 'la base tiene que ser un número'
+        } else if (isNaN(argv.h)) {
+            throw 'hasta tiene que ser un número'
         }
         return true
     })
