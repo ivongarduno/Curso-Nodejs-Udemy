@@ -15,7 +15,9 @@ const mostrarMenu = () => {
         console.log(`${'6.'.magenta} Borrar tarea`);
         console.log(`${'0.'.magenta} Salir \n`);
 
-        const readline = require('readline').createInterface({
+        const readline = require('readline').createInterface({ // modulo nativo de nodejs
+            // espera un enter para continuar, 
+            //permiten ingresar texto en consola del usuario
             input: process.stdin,
             output: process.stdout
         });
